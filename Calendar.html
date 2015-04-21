@@ -64,35 +64,46 @@
 
         <div class="row">
             <div class="box">
+              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                  Sign Up For Our Weekly Wrap-Up!
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Every week our chapter sends out updates concerning our operations as well as our long-term plans over the semester. It's a great way to get a feel for what PGN is all about.</h4>
+                      </div>
+                      <div class="modal-body">
+                        <form role="form">
+                          <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" id="email">
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="name" class="form-control" id="name">
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox"> Send me event reminders!</label>
+                          </div>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="col-lg-12">
                    <iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=mhimql51ah4v4beq7abjmhgrgg%40group.calendar.google.com&amp;color=%235F6B02&amp;ctz=America%2FChicago" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
                 <br>
-                <!-- Large modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Sign Up For Our Weekly Wrap-Up!</button>
 
-                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <form>
-                          <div class="form-group">
-                            <label for="InputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="InputEmail1" placeholder="Enter email">
-                          </div>
-                          <div class="form-group">
-                            <label for="InputName1">Name</label>
-                            <input type="name" class="form-control" id="InputName1" placeholder="First and Last Name">
-                          </div>
-                          <div class="checkbox">
-                            <label>
-                              <input type="checkbox"> Notify me of future rush events!
-                            </label>
-                          </div>
-                          <button type="submit" class="btn btn-default">Submit</button>
-                        </form>
-                    </div>
-                  </div>
-                </div>
 
             </div>
         </div>
