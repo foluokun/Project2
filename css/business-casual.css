@@ -189,3 +189,10 @@ footer p {
         clear: both;
     }
 }
+iframe {
+    margin-left: 20%;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    margin-left: 21%
+}
